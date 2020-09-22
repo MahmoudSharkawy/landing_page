@@ -1,4 +1,7 @@
 # #landing_page
+| HTML      | CSS     | JS  |
+| ------------- |:-------------:| -----:|
+
 ## PROJECT SPECIFICATION
 ### Interface and Architecture
 - Architecture
