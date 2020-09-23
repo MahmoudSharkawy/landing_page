@@ -54,5 +54,9 @@
 // Scroll to section on link click
 
 // Set sections as active
-document.querySelectorAll(".section");
-
+$(function(){
+    $('.container a').click(function () {
+        $('.container a').removeClass('active');
+        $(this).addClass('active');
+     });
+ });
