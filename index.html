@@ -2,31 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>Manipulating the DOM</title>
   <!-- Load Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
   <!-- HTML Follows BEM naming conventions 
   IDs are only used for sections to connect menu achors to sections -->
   <header class="page__header">
-    <nav class="navbar__menu">
-      <!-- Navigation starts as empty UL that will be populated with JS -->
-      <ul id="navbar__list">
-          <li><a href="#section1"> Section 1</a></li>
-          <li><a href="#section2"> Section 2</a></li>
-          <li><a href="#section3"> Section 3</a></li>
-      </ul>
+            <!-- Navigation starts as empty UL that will be populated with JS -->
+
+    <nav class="navbar navbar-ark navbar-expand-sm fixes-top">
+        <div class="container">
+       
+       <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="nabvar-brand" href="#toppage">Landing Page</a>
+        <div class="collapse navbar-collapse" id="Navbar">
+       
+      <ul id="navbar-nav mr-auto">
+      <li class="nav-item active"><a class="nav-link" href="#section1">Section1</a></li>
+      <li class="nav-item"><a class="nav-link" href="#section2">Section2</a></li>
+      <li class="nav-item"><a class="nav-link" href="#section3">Section3</a></li>
+
+    </ul>
+        </div>
+    </div>
+      
     </nav>
   </header>
   <main>
     <header class="main__hero">
-      <h1>Landing Page </h1>
+      <h1 id="toppage">Landing Page </h1>
     </header>
     <!-- Each Section has an ID (used for the anchor) and 
     a data attribute that will populate the li node.
