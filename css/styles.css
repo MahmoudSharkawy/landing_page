@@ -103,6 +103,10 @@ section {
         list-style: none;
         padding-top: 20px;
         }
+        .container button{
+            display: none;
+
+        }
 
 /* Header Styles */
 .page__header {
@@ -139,10 +143,11 @@ section {
     }
 }
 @media screen and (max-width: 600px) {
-    .container a.button {
-      float: right;
-      display: block;
+    .container button{
+        display: inline;
     }
+   
+
     }
     @media screen and (max-width: 600px) {
         .container.responsive {position: relative;}
