@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-    border-bottom: 1px solid #cc1;
+    border-bottom: 1px solid #f6f6f6;
     font-family: 'Oxygen', Sans-Serif;
     font-size: 3em;
     color: #fff;
@@ -66,7 +66,8 @@ section {
 
 /* Navigation Styles*/
 .container {
-    margin: 2px;
+    margin: opx;
+    padding: 0%;
     
     
   }
@@ -84,7 +85,7 @@ section {
         
   }
   .container a:hover {
-    background-color: #41444b;
+    background-color: #4CAF50;
     color: #f6f6f6;
         text-decoration: none; 
     }
@@ -94,15 +95,17 @@ section {
     background-color: #4CAF50;
     color: white;
   }
+
   .container li{
       display: inline;
       text-decoration: none; 
   }
   .container ul{
-            min-width: 696px;
+            min-width: auto;
         list-style: none;
-        padding-top: 20px;
+        padding-top: 0px;
         }
+
         .container button{
             display: none;
 
@@ -139,14 +142,15 @@ section {
 @media only screen and (min-width: 35em){
     .landing__container {
         max-width: 50em;
-        padding: 4em;
+        padding: 0%;
     }
 }
 @media screen and (max-width: 600px) {
     .container button{
         display: inline;
+
     }
-   
+
 
     }
     @media screen and (max-width: 600px) {
