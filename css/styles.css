@@ -103,31 +103,9 @@ section {
     color: #f6f6f6;
         text-decoration: none; 
     }
-#section1:target {
-   
-    text-decoration: none !important; 
-    background-color: #4CAF50;
-    color: white;
-  }
-  #section2:target {
-   
-    text-decoration: none !important; 
-    background-color: #4CAF50;
-    color: white;
-  }
-  #section3:target {
-   
-    text-decoration: none !important; 
-    background-color: #4CAF50;
-    color: white;
-  }
 
-  #section4:target {
-   
-    text-decoration: none !important; 
-    background-color: #4CAF50;
-    color: white;
   }
+ 
 
 /* Header Styles */
 .page__header {
